@@ -1,0 +1,1 @@
+Original work of https://github.com/creotiv at https://github.com/creotiv/jquery-photowall. I am maintaining my own copy for Photowall (http://drupal.org/project/photowall) Drupal module because latest version causing some js break in module.
