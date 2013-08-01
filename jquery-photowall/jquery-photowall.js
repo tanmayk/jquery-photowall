@@ -374,8 +374,7 @@ var PhotoWall = {
 					var container  = img.parent().parent();
                                         
 					var item = PhotoWall._photos[container.attr('id')];
-                                         console.log(PhotoWall._photos);
-                                          console.log(container.attr('id'));
+
 					// Preload zoomed image and replace old only when it loaded.
 					var bigIMG = $('<img/>');
 					bigIMG.attr('src',item.th.zoom_src);
