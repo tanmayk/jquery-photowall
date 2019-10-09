@@ -77,15 +77,17 @@ img.pw-photo-zoomed {
 }
 
 #showbox .showbox-image {
-  position:relative;
+  position: relative;
 }
+
 #showbox .showbox-image img {
-  cursor:pointer;
+  cursor: pointer;
 }
+
 #showbox .showbox-menubar {
   text-align: center;
   width: 100%;
-  font-family: Arial,Tahoma,Serif;
+  font-family: Arial, Tahoma, Serif;
   color: #919191;
   height: 35px;
   position: relative;
@@ -99,7 +101,7 @@ img.pw-photo-zoomed {
   width: 100%;
   bottom: -75px;
   left: 0px;
-  padding: 5px 0 15px 0 ;
+  padding: 5px 0 15px 0;
   overflow: hidden;
 }
 
@@ -114,9 +116,9 @@ img.pw-photo-zoomed {
 }
 
 #showbox .showbox-th-counter {
-  text-align:center;
+  text-align: center;
   color: #919191;
-  font-family: Arial,Tahoma,Serif;
+  font-family: Arial, Tahoma, Serif;
   font-size: 12px;
   height: 15px;
   margin-bottom: 5px;
@@ -144,7 +146,7 @@ img.pw-photo-zoomed {
 
 #showbox .showbox-th-active {
   border: 1px solid #e5e5e5;
-  cursor:default !important;
+  cursor: default !important;
 }
 
 /** clearfix **/
@@ -158,7 +160,8 @@ img.pw-photo-zoomed {
 }
 
 * html .clearfix {
-  zoom: 1; /* IE6 */
+  zoom: 1;
+  /* IE6 */
 }
 
 *:first-child+html .clearfix {
