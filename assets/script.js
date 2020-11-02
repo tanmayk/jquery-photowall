@@ -18,7 +18,7 @@ $(document).ready(function() {
   var imgs = [1, 2, 3, 4];
   var photos = {}
   $.each(imgs, function(i, value){
-    var img_src = '/assets/images/' + value + '.jpg';
+    var img_src = 'assets/images/' + value + '.jpg';
     photos[value] = {
       id: value,
       img: img_src,
